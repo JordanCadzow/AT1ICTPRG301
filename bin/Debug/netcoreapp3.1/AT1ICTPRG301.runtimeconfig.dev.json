@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\HillaryClinton(ISIS)\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\HillaryClinton(ISIS)\\.nuget\\packages"
+    ]
+  }
+}

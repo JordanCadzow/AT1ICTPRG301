@@ -1,0 +1,13 @@
+D:\CoolStuff\Swinburne\AT1ICTPRG301\obj\Debug\netcoreapp3.1\AT1ICTPRG301.csprojAssemblyReference.cache
+D:\CoolStuff\Swinburne\AT1ICTPRG301\obj\Debug\netcoreapp3.1\AT1ICTPRG301.csproj.CoreCompileInputs.cache
+D:\CoolStuff\Swinburne\AT1ICTPRG301\obj\Debug\netcoreapp3.1\AT1ICTPRG301.AssemblyInfoInputs.cache
+D:\CoolStuff\Swinburne\AT1ICTPRG301\obj\Debug\netcoreapp3.1\AT1ICTPRG301.AssemblyInfo.cs
+D:\CoolStuff\Swinburne\AT1ICTPRG301\bin\Debug\netcoreapp3.1\AT1ICTPRG301.exe
+D:\CoolStuff\Swinburne\AT1ICTPRG301\bin\Debug\netcoreapp3.1\AT1ICTPRG301.deps.json
+D:\CoolStuff\Swinburne\AT1ICTPRG301\bin\Debug\netcoreapp3.1\AT1ICTPRG301.runtimeconfig.json
+D:\CoolStuff\Swinburne\AT1ICTPRG301\bin\Debug\netcoreapp3.1\AT1ICTPRG301.runtimeconfig.dev.json
+D:\CoolStuff\Swinburne\AT1ICTPRG301\bin\Debug\netcoreapp3.1\AT1ICTPRG301.dll
+D:\CoolStuff\Swinburne\AT1ICTPRG301\bin\Debug\netcoreapp3.1\AT1ICTPRG301.pdb
+D:\CoolStuff\Swinburne\AT1ICTPRG301\obj\Debug\netcoreapp3.1\AT1ICTPRG301.dll
+D:\CoolStuff\Swinburne\AT1ICTPRG301\obj\Debug\netcoreapp3.1\AT1ICTPRG301.pdb
+D:\CoolStuff\Swinburne\AT1ICTPRG301\obj\Debug\netcoreapp3.1\AT1ICTPRG301.genruntimeconfig.cache
