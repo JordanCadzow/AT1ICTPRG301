@@ -71,12 +71,12 @@ namespace AT1ICTPRG301
                     
                     if (int.TryParse(userInput, out intInput)) {
                         Console.WriteLine("");
-                        if (intInput > 0) {
+                        if (intInput == 1 || intInput == 2 || intInput == 3 || intInput == 4) {
                             Console.WriteLine("");  
                              acceptableInput = true;
                         }
                     else {
-                    Console.WriteLine("Upper limit must be greater than 0.");
+                    Console.WriteLine("Please select option 1, 2, 3 or 4.");
                     }
                     }
                     else
