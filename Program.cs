@@ -41,14 +41,14 @@ namespace AT1ICTPRG301
             int[] bingoNumbers = new int[upperLimit];
             int count = 0;
             while (count < upperLimit)
-                {
-                    Random rd = new Random();
-                    int index = rd.Next(0,numList.Count -1);
-                    int auto = numList[index];
-                    bingoNumbers[count] = auto;
-                    numList.RemoveAt(index);
-                    count += 1;
-        }           
+            {
+                Random rd = new Random();
+                int index = rd.Next(0,numList.Count -1);
+                int auto = numList[index];
+                bingoNumbers[count] = auto;
+                numList.RemoveAt(index);
+                count += 1;
+            }           
 
             
 
@@ -86,10 +86,15 @@ namespace AT1ICTPRG301
                 if (intInput == 1) {
                     Console.WriteLine("Drawing a number...");
                     
+                    if (drawCount < upperLimit) {
                     int draw = bingoNumbers[drawCount];
                     drawCount = drawCount + 1;
                     drawnNumbers.Add(draw);
                     Console.WriteLine(draw + " was drawn!");
+                    }
+                    else {
+                        Console.WriteLine("All numbers have already been drawn!");
+                    }
 
 
                 }
@@ -112,11 +117,12 @@ namespace AT1ICTPRG301
                             else {
                                 Console.WriteLine("Must input 1 or 2.");
                             }
-                        }
+                            }
                         else {
                             Console.WriteLine("Must input 1 or 2.");
-                        }
+                            }
                     }
+
                     if (intInput == 1) {
                         for (int i = 0; i < drawnNumbers.Count; i++) {
                         Console.WriteLine(drawnNumbers[i]);
@@ -124,11 +130,10 @@ namespace AT1ICTPRG301
                         
                     }
                     else {
-                        List<int> sortedList = new List<int>();
-                        sortedList = drawnNumbers;
+                        List<int> sortedList = new List<int>(drawnNumbers);
                         sortedList.Sort();
                  
-                        for (int i = 0; i < drawnNumbers.Count; i++) {
+                        for (int i = 0; i < sortedList.Count; i++) {
                             Console.WriteLine(sortedList[i]);
                         }
 
