@@ -56,12 +56,8 @@ namespace AT1ICTPRG301
             var intInput = 0;
 
             while (intInput != 4) {
-                Console.WriteLine("");
-                Console.WriteLine("Welcome to the Swinburne Bingo Club");
-                Console.WriteLine("1. Draw next number");
-                Console.WriteLine("2. View all drawn numbers");
-                Console.WriteLine("3. Check specific number");
-                Console.WriteLine("4. Exit");
+                
+                MainMenu();
 
                 bool acceptableInput = false;
 
@@ -185,6 +181,14 @@ namespace AT1ICTPRG301
         
 
     
+    }
+    void MainMenu() {
+                Console.WriteLine("");
+                Console.WriteLine("Welcome to the Swinburne Bingo Club");
+                Console.WriteLine("1. Draw next number");
+                Console.WriteLine("2. View all drawn numbers");
+                Console.WriteLine("3. Check specific number");
+                Console.WriteLine("4. Exit");
     }
 }
 }
